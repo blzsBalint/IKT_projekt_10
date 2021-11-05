@@ -1,0 +1,1 @@
+print('Szia: ' + input ('Hogy hívnak') + '!')

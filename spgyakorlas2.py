@@ -1,9 +1,10 @@
-cm= int (input('Hány cm vagy ? '))
-if (cm < 170):
-   print('Te  törpe')
+cfok= int (input('mi tortenik a vizzel ezen a fokon írj ide egy számot = '))
 
-elif (cm > 180):
-   print('Te  zsiraf')
+if (cfok > 100):
+   print('Itt már forr a víz')
+
+elif (cfok < 0):
+   print('Itt már megfagy a víz')
 
 else:
-    print("Átlagos vagy te meleg")
+    print("Itt cseppfolyós a víz")
